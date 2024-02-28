@@ -1,0 +1,21 @@
+.wrapper{
+    margin: 0 auto;
+    display: flex;
+    width: 1000px;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.brand{
+    width: 100px;
+}
+.id{
+    width: 400px;
+}
+.price{
+    width: 100px;
+}
+.product{
+    width: 400px;
+}
