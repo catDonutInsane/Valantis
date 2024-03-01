@@ -9,7 +9,7 @@
     "453.4424d40c.chunk.js.map": "/Valantis/static/js/453.4424d40c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d03d048.css",
-    "static/js/main.bc76332a.js"
+    "/Valantis/static/css/main.2d03d048.css",
+    "/Valantis/static/js/main.bc76332a.js"
   ]
 }
