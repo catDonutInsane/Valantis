@@ -15,7 +15,6 @@ export const params ={
             "action":action,
             "params":{
                 "product":product,
-                "limit":10
             }
             
         }
@@ -38,5 +37,6 @@ export const params ={
             
         }
     },
+    
 
 }

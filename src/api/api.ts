@@ -10,8 +10,8 @@ var md5 = require('md5');
 const instance = axios.create({  
   baseURL: 'http://api.valantis.store:40000/',
   headers: {
-    "X-Auth": md5(`Valantis_${getUTC()}`)
-},
+    "X-Auth": md5(`Valantis_${getUTC()}`),
+}
 
 })
 
@@ -35,7 +35,7 @@ export const userAPI={
           {
             "action": "get_items",
             "params": {"ids": [...itemList]}
-          }  
+          }
         )
         const data:Item[] = response.data.result;
         
@@ -58,21 +58,7 @@ export const userAPI={
         TCparans);
         const data = response.data.result;
         dispatch(setTotalCount(data.length))
-        // const r= await instance.post("",
-        // {
-        //     "action":"get_fields",
-        //     // "params":{
-        //     //     "field":"30000",
-        //     // }  
-        // });
-        // const data2 = r.data.result;
-        // let y:string[] =[]
-        // data2.map((i:string)=>{
-        //     if(i){
-        //         y.push(i)
-        //     }
-        // })
-        // console.log(y)
+        
     }
     catch(error:any){
         this.getTC( dispatch,TCparans)

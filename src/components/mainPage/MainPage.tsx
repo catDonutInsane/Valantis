@@ -8,6 +8,7 @@ import { setIsLoading } from '../../reducers/reducer';
 
 
 
+
 export const MainPage = () =>{
     
     const dispatch = useAppDispatch()
@@ -50,7 +51,7 @@ export const MainPage = () =>{
                 
                 </div>
                 :<div>
-                    <img style={{width:"40px", height:"40px"}} src="/loading-loading-forever.gif" alt="qweqw" />
+                    <img style={{width:"40px", height:"40px"}} src="https://icons8.com/preloaders/preloaders/1485/Gear.gif" alt="qweqw" />
                     <span>Loading...</span>
                 </div>
             }

@@ -1,6 +1,7 @@
 import './App.css';
 import { PaginationBar } from './components/pagination/Pagination';
 import { MainPage } from './components/mainPage/MainPage';
+import { ScrollUpBtn } from './components/scrollUpButton/ScrollUpButton';
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <MainPage/>
      <PaginationBar/>
+     <ScrollUpBtn/>
     </div>
   );
 }
