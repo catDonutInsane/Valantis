@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import { scrollUp } from "./ScrollUp";
 import s from "./ScrollUpBtn.module.css";
-export const ScrollUpBtn:React.FC = () => {
+export const ScrollUpBtn: React.FC = () => {
   const scrBtn = useRef(null);
   const [op, setOp] = useState<number>(0);
   window.addEventListener("scroll", () => {
