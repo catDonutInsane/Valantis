@@ -18,7 +18,7 @@ export const SortingByBrand = () =>{
         <div>
             <AutoComplete
                         onSelect={(e)=>filter(e)}
-                        style={{width:300}}
+                        style={{width:300, border:"1px solid black",borderRadius:"7px"}}
                         placeholder = "Введите название бренда"
                         options={brands}
                         filterOption={true}

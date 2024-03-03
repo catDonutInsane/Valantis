@@ -17,7 +17,7 @@ export const SortingByPrice = () =>{
         <div>
             <AutoComplete
                         onSelect={(e)=>filter(e)}                        
-                        style={{width:300}}
+                        style={{width:300, border:"1px solid black",borderRadius:"7px"}}
                         placeholder = "Введите цену"
                         options={prices}
                         filterOption={true}

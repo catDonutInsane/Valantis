@@ -6,11 +6,13 @@ import { ShowAllButton } from '../showAllButton/ShowAllButton';
 export const SortingMenu = () =>{
 
     return(
-        <div>
+        <div className='sortingMenu'>
+            <div className='sortingMenuItems'>
             <SortingByTitle/>
             <SortingByBrand/>
             <SortingByPrice/>
             <ShowAllButton/>
+            </div>            
         </div>
     )
 }

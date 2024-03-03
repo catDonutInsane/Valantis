@@ -5,7 +5,9 @@
     height: 60px;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid black;
+    border: 1px solid rgba(189, 168, 168, 0.688);
+    margin-bottom: 10px;
+    border-radius: 10px;
 }
 .brand{
     width: 100px;

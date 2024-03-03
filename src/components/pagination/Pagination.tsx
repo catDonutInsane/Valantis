@@ -20,6 +20,7 @@ export const PaginationBar = () => {
 
   return (
     <Pagination
+      className="pagination"
       disabled={pagDisable}
       pageSize={50}
       onChange={(e, p) => pagHandler(e, p)}
